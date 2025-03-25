@@ -10,7 +10,7 @@ public class Main {
         //inciso 5
         n1.avanzar(60);
         //inciso 6
-        System.out.println("Cargando diagnóstico del estado de la Nave...\n"+n1.mostrarEstado());
+        System.out.println("Cargando diagnóstico del estado de la Nave...\n"+n1.mostrarEstado()+"\n \nCerrando diagnóstico... \n");
 
         //Segunda Nave
         NaveEspacial n2 = new NaveEspacial("Enterprise",5);
@@ -18,6 +18,6 @@ public class Main {
         n2.recargarCombustible(70);
         n2.avanzar(47);
         n2.avanzar(50);
-        System.out.println("Cargando diagnóstico del estado de la Nave...");n2.mostrarEstado();
+        System.out.println("Cargando diagnóstico del estado de la Nave...\n"+n2.mostrarEstado()+"\n \nCerrando diagnóstico... \n");
     }
 }
